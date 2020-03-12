@@ -1,0 +1,146 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     testfileCV
+Instances:    5572
+Attributes:   5349
+              [list of attributes omitted]
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ spammy_words <= 1
+|   minnaminnie <= 0
+|   |   chances <= 0
+|   |   |   toll <= 0
+|   |   |   |   requires <= 0
+|   |   |   |   |   kareem <= 0
+|   |   |   |   |   |   expired <= 0
+|   |   |   |   |   |   |    perc_upper <= 0.12844
+|   |   |   |   |   |   |   |   currently <= 0: ham (4146.0/58.0)
+|   |   |   |   |   |   |   |   currently > 0
+|   |   |   |   |   |   |   |   |   f <= 0: ham (52.0/1.0)
+|   |   |   |   |   |   |   |   |   f > 0: spam (5.0/1.0)
+|   |   |   |   |   |   |    perc_upper > 0.12844
+|   |   |   |   |   |   |   |    spammy_words <= 0
+|   |   |   |   |   |   |   |   |   tn <= 0: ham (313.0/18.0)
+|   |   |   |   |   |   |   |   |   tn > 0
+|   |   |   |   |   |   |   |   |   |   empty <= 0
+|   |   |   |   |   |   |   |   |   |   |   vikky <= 0: ham (47.0/5.0)
+|   |   |   |   |   |   |   |   |   |   |   vikky > 0: spam (2.0)
+|   |   |   |   |   |   |   |   |   |   empty > 0: spam (4.0)
+|   |   |   |   |   |   |   |    spammy_words > 0
+|   |   |   |   |   |   |   |   |    perc_non_alpha <= 0.068783: ham (13.0)
+|   |   |   |   |   |   |   |   |    perc_non_alpha > 0.068783
+|   |   |   |   |   |   |   |   |   |   id <= 1: spam (38.0/5.0)
+|   |   |   |   |   |   |   |   |   |   id > 1: ham (2.0)
+|   |   |   |   |   |   expired > 0
+|   |   |   |   |   |   |    has_link <= 0
+|   |   |   |   |   |   |   |    spammy_words <= 0: ham (56.0/1.0)
+|   |   |   |   |   |   |   |    spammy_words > 0
+|   |   |   |   |   |   |   |   |    perc_upper <= 0.084906: ham (5.0)
+|   |   |   |   |   |   |   |   |    perc_upper > 0.084906: spam (3.0)
+|   |   |   |   |   |   |    has_link > 0: spam (7.0)
+|   |   |   |   |   kareem > 0
+|   |   |   |   |   |   tolerance <= 0
+|   |   |   |   |   |   |    perc_upper <= 0.386667: ham (23.0/1.0)
+|   |   |   |   |   |   |    perc_upper > 0.386667: spam (2.0)
+|   |   |   |   |   |   tolerance > 0: spam (2.0)
+|   |   |   |   requires > 0
+|   |   |   |   |   sack <= 0: ham (23.0)
+|   |   |   |   |   sack > 0: spam (8.0)
+|   |   |   toll > 0
+|   |   |   |    perc_non_alpha <= 0.140351
+|   |   |   |   |   intra <= 0
+|   |   |   |   |   |   heavy <= 0: ham (63.0/3.0)
+|   |   |   |   |   |   heavy > 0
+|   |   |   |   |   |   |   declare <= 0: spam (2.0)
+|   |   |   |   |   |   |   declare > 0: ham (2.0)
+|   |   |   |   |   intra > 0
+|   |   |   |   |   |    perc_upper <= 0.0625: ham (2.0)
+|   |   |   |   |   |    perc_upper > 0.0625: spam (2.0)
+|   |   |   |    perc_non_alpha > 0.140351: spam (12.0)
+|   |   chances > 0
+|   |   |    perc_non_alpha <= 0.102564
+|   |   |   |   nowadays <= 0: ham (60.0/3.0)
+|   |   |   |   nowadays > 0
+|   |   |   |   |   sailboat <= 0
+|   |   |   |   |   |   id <= 0: spam (4.0)
+|   |   |   |   |   |   id > 0: ham (3.0/1.0)
+|   |   |   |   |   sailboat > 0: ham (2.0)
+|   |   |    perc_non_alpha > 0.102564: spam (24.0/1.0)
+|   minnaminnie > 0
+|   |   toll <= 0
+|   |   |   enc <= 0
+|   |   |   |   minor <= 0
+|   |   |   |   |   organizer <= 0: ham (17.0/1.0)
+|   |   |   |   |   organizer > 0: spam (2.0)
+|   |   |   |   minor > 0: spam (3.0)
+|   |   |   enc > 0: spam (3.0)
+|   |   toll > 0: spam (5.0)
+ spammy_words > 1
+|    perc_non_alpha <= 0.089888
+|   |    perc_upper <= 0.047059
+|   |   |   exciting <= 0
+|   |   |   |   grief <= 0: ham (47.0)
+|   |   |   |   grief > 0
+|   |   |   |   |    perc_non_alpha <= 0.025316: ham (2.0)
+|   |   |   |   |    perc_non_alpha > 0.025316: spam (2.0)
+|   |   |   exciting > 0
+|   |   |   |   camry <= 1: spam (3.0)
+|   |   |   |   camry > 1: ham (2.0)
+|   |    perc_upper > 0.047059
+|   |   |   records <= 0
+|   |   |   |   r <= 0
+|   |   |   |   |   charity <= 0
+|   |   |   |   |   |   cali <= 0: spam (46.0/2.0)
+|   |   |   |   |   |   cali > 0
+|   |   |   |   |   |   |   nowadays <= 0: ham (7.0)
+|   |   |   |   |   |   |   nowadays > 0: spam (3.0)
+|   |   |   |   |   charity > 0: ham (4.0/1.0)
+|   |   |   |   r > 0: ham (4.0)
+|   |   |   records > 0: ham (6.0)
+|    perc_non_alpha > 0.089888
+|   |    perc_upper <= 0.065574
+|   |   |   sh <= 0
+|   |   |   |    perc_upper <= 0.061947: spam (71.0/1.0)
+|   |   |   |    perc_upper > 0.061947
+|   |   |   |   |    spammy_words <= 2: ham (2.0)
+|   |   |   |   |    spammy_words > 2: spam (2.0)
+|   |   |   sh > 0: ham (5.0)
+|   |    perc_upper > 0.065574: spam (409.0)
+
+Number of Leaves  : 	51
+
+Size of the tree : 	101
+
+
+Time taken to build model: 59.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5372               96.4106 %
+Incorrectly Classified Instances       200                3.5894 %
+Kappa statistic                          0.8398
+Mean absolute error                      0.0484
+Root mean squared error                  0.183 
+Relative absolute error                 20.815  %
+Root relative squared error             53.7026 %
+Total Number of Instances             5572     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.986    0.175    0.973      0.986    0.979      0.841    0.929     0.975     ham
+                 0.825    0.014    0.899      0.825    0.860      0.841    0.929     0.827     spam
+Weighted Avg.    0.964    0.154    0.963      0.964    0.963      0.841    0.929     0.955     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 4756   69 |    a = ham
+  131  616 |    b = spam
